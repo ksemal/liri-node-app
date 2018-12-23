@@ -1,3 +1,157 @@
+*** concert-this bon jovi
+Name of the venue: Tallinna Lauluväljak
+Venue location: Igaunija, Tallinn
+Date: Jun 2nd 2019
+
+Name of the venue: TELE2 ARENA/Stockholm Live
+Venue location: Sweden, Stockholm
+Date: Jun 5th 2019
+
+Name of the venue: Viking Stadion
+Venue location: Norway, Stavanger
+Date: Jun 8th 2019
+
+Name of the venue: Slagmarken
+Venue location: Denmark, Sonderborg
+Date: Jun 11th 2019
+
+Name of the venue: Goffertpark
+Venue location: Netherlands, Nijmegen
+Date: Jun 13th 2019
+
+Name of the venue: RDS Venue - Main Hall Complex (Halls 1-4 & 6)
+Venue location: Ireland, Dublin
+Date: Jun 15th 2019
+
+Name of the venue: RDS Venue - Main Hall Complex (Halls 1-4 & 6)
+Venue location: Ireland, Dublin
+Date: Jun 16th 2019
+
+Name of the venue: Anfield Stadium
+Venue location: United Kingdom, Liverpool
+Date: Jun 19th 2019
+
+Name of the venue: Wembley Stadium
+Venue location: United Kingdom, London
+Date: Jun 21st 2019
+
+Name of the venue: Ricoh Arena
+Venue location: United Kingdom, Coventry
+Date: Jun 23rd 2019
+
+Name of the venue: Merkur Spiel-Arena
+Venue location: Germany, Dusseldorf
+Date: Jul 3rd 2019
+
+Name of the venue: Olympiastadion
+Venue location: Germany, Munchen
+Date: Jul 5th 2019
+
+Name of the venue: Estadio Wanda Metropolitano
+Venue location: Spain, Madrid
+Date: Jul 7th 2019
+
+Name of the venue: Stadion Letzigrund
+Venue location: Switzerland, Zürich
+Date: Jul 10th 2019
+
+Name of the venue: Festivalpark Werchter
+Venue location: Belgium, Werchter
+Date: Jul 14th 2019
+
+Name of the venue: Ernst Happel Stadion
+Venue location: Austria, Wien
+Date: Jul 17th 2019
+
+Name of the venue: Wörthersee Stadion
+Venue location: Austria, Klagenfurt
+Date: Jul 19th 2019
+
+Name of the venue: Piata Constitutiei
+Venue location: Romania, Bucuresti
+Date: Jul 21st 2019
+
+*** concert-this dfg
+There are no events with this artist
+*** spotify-this-song jingle bells
+Artist: Frank Sinatra
+The song's name: Jingle Bells
+A preview link of the song from Spotify: null
+The album that the song is from: Ultimate Christmas
+
+Artist: Michael Bublé, The Puppini Sisters
+The song's name: Jingle Bells (feat. The Puppini Sisters)
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/dc576f457addeefddc613c722cedc13fcb242c17?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Christmas
+
+Artist: Michael Bublé, The Puppini Sisters
+The song's name: Jingle Bells (feat. The Puppini Sisters)
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/dc576f457addeefddc613c722cedc13fcb242c17?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Christmas (Deluxe Special Edition)
+
+Artist: Frank Sinatra
+The song's name: Jingle Bells - Remastered 1999
+A preview link of the song from Spotify: null
+The album that the song is from: A Jolly Christmas From Frank Sinatra
+
+Artist: Brandon Mills
+The song's name: Jingle Bells
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/e49816f31037b5884f203f7f0649b1a99a2abd6a?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Jingle Bells
+
+Artist: Pentatonix
+The song's name: Jingle Bells (with Orchestra)
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/71632a18e3d490929b790499bd14bc149e8d686e?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Christmas Is Here!
+
+Artist: Kris Allen, Caroline Glaser
+The song's name: Jingle Bells (feat. Caroline Glaser)
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/703dad80581aad487064b10b54c578136a67436a?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Somethin' About Christmas
+
+Artist: Frank Sinatra
+The song's name: Jingle Bells
+A preview link of the song from Spotify: null
+The album that the song is from: Christmas
+
+Artist: Alan Jackson
+The song's name: Jingle Bells
+A preview link of the song from Spotify: null
+The album that the song is from: Let It Be Christmas
+
+Artist: Lauren Daigle
+The song's name: Jingle Bells
+A preview link of the song from Spotify: null
+The album that the song is from: Behold
+
+*** spotify-this-song fhdsfs
+*** spotify-this-song 
+Artist: Ace of Base
+The song's name: The Sign
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: The Sign (US Album) [Remastered]
+
+*** spotify-this-song node liri.js movie-this home alone
+*** movie-this home alone
+Title of the movie: Home Alone
+Year the movie came out: 1990
+IMDB Rating of the movie: 7.5
+Rotten Tomatoes Rating of the movie: 62%
+Country where the movie was produced: USA
+Language of the movie: English
+Plot of the movie: An eight-year-old troublemaker must protect his house from a pair of burglars when he is accidentally left home alone by his family during Christmas vacation.
+Actors in the movie: Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard
+
+*** movie-this Mr. Nobody
+Title of the movie: Mr. Nobody
+Year the movie came out: 2009
+IMDB Rating of the movie: 7.9
+Rotten Tomatoes Rating of the movie: 67%
+Country where the movie was produced: Belgium, Germany, Canada, France, USA, UK
+Language of the movie: English, Mohawk
+Plot of the movie: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors in the movie: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
 *** do-what-it-says "I Want it That Way"
 Artist: Backstreet Boys
 The song's name: I Want It That Way
@@ -48,4 +202,65 @@ Artist: Boyce Avenue
 The song's name: I Want It That Way
 A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/764f1dcb8c9a9cec099cc361cb388f931bf023d3?cid=0c745003e1604c37845cde122ada066d
 The album that the song is from: Cover Sessions, Vol. 2
+
+*** do-what-it-says "sleeping in my car"
+Artist: Roxette
+The song's name: Sleeping In My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/932cefd44615f91c2c762d89c80b3d2ce6824a2c?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Crash! Boom! Bang! (2009 Version)
+
+Artist: Roxette
+The song's name: Sleeping In My Car - Single Version
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/e05b9e8bfe1dc446aa01d39290c422130b1fa920?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Don't Bore Us - Get To The Chorus! Roxette's Greatest Hits
+
+Artist: Roxette
+The song's name: Sleeping In My Car - Single Version
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/e05b9e8bfe1dc446aa01d39290c422130b1fa920?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: The 30 Biggest Hits XXX
+
+Artist: Roxette
+The song's name: Sleeping in My Car - Live from Santiago 2012
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/a438f17de026190f718c4adb6ad3826b672e0b36?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Travelling The World Live at Caupolican, Santiago, Chile May 5, 2012
+
+Artist: Asha Ali, RABBII
+The song's name: Sleeping in My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/1e51942b2e5985bcf17facb6ea3ab355b7fb1181?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Ikaros Rep.
+
+Artist: Astrabula
+The song's name: Sleeping in My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/53858a866ac832cd615adc26424d949e75668666?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Tyrone St
+
+Artist: RüssSuuger Emmen
+The song's name: Sleeping in My Car - Live
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/09f6c42e9021c8871c047cdd327d406ca366f99d?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Guuggen Power, Vol. 5 (20 Guuggenmusigen Live)
+
+Artist: Windsor For Derby
+The song's name: Sleeping In My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/e0e874add7c451019f77fea6798589025b6ff13d?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Songs for the Geographically Challenged 1997-2000
+
+Artist: Asha Ali, RABBII
+The song's name: Sleeping in My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/1e51942b2e5985bcf17facb6ea3ab355b7fb1181?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Ikaros Rep.
+
+Artist: Uta Habbig
+The song's name: Sleeping in My Car
+A preview link of the song from Spotify: https://p.scdn.co/mp3-preview/4c934760fe65c74cd159d83c98e354a0fc765bb4?cid=0c745003e1604c37845cde122ada066d
+The album that the song is from: Windward
+
+*** do-what-it-says "the grinch"
+Title of the movie: The Grinch
+Year the movie came out: 2018
+IMDB Rating of the movie: 6.4
+Rotten Tomatoes Rating of the movie: 58%
+Country where the movie was produced: France, China, Japan, USA
+Language of the movie: English
+Plot of the movie: A grumpy Grinch plots to ruin Christmas for the village of Whoville.
+Actors in the movie: Benedict Cumberbatch, Cameron Seely, Rashida Jones, Pharrell Williams
 

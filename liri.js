@@ -25,7 +25,6 @@ function bands() {
     )
     .then(
       function(response) {
-        //console.log(response.data);
         if (response.data.length === 0 || "errorMessage" in response.data) {
           textToLog = "There are no events with this artist";
           writeToFile("*** " + action + " " + value + "\n");
@@ -51,7 +50,7 @@ function bands() {
         }
       },
       function(error) {
-        console.log(error);
+        console.log(error.message);
       }
     );
 }
