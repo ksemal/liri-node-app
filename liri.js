@@ -4,8 +4,10 @@ var keys = require("./keys.js");
 var axios = require("axios");
 var moment = require("moment");
 var Spotify = require("node-spotify-api");
+var fs = require("fs");
 
 //global var
+var textToLog = "";
 var action = process.argv[2];
 var value = "";
 for (var i = 3; i < process.argv.length; i++) {
@@ -23,22 +25,30 @@ function bands() {
     )
     .then(
       function(response) {
-        if (response.data.length === 0) {
-          console.log("There are no events with this artist");
-        }
-        response.data.forEach(element => {
-          console.log("Name of the venue: " + element.venue.name);
-          console.log(
-            "Venue location: " +
+        //console.log(response.data);
+        if (response.data.length === 0 || "errorMessage" in response.data) {
+          textToLog = "There are no events with this artist";
+          writeToFile("*** " + action + " " + value + "\n");
+          writeToFile(textToLog + "\n");
+          console.log(textToLog);
+        } else {
+          response.data.forEach(element => {
+            textToLog += "Name of the venue: " + element.venue.name + "\n";
+            textToLog +=
+              "Venue location: " +
               element.venue.country +
               ", " +
-              element.venue.city
-          );
-          console.log(
-            "Date: " + moment(element.datetime).format("MMM Do YYYY")
-          );
-          console.log("\n");
-        });
+              element.venue.city +
+              "\n";
+            textToLog +=
+              "Date: " +
+              moment(element.datetime).format("MMM Do YYYY") +
+              "\n\n";
+          });
+          writeToFile("*** " + action + " " + value + "\n");
+          writeToFile(textToLog);
+          console.log(textToLog);
+        }
       },
       function(error) {
         console.log(error);
@@ -56,23 +66,32 @@ function movie() {
     .then(
       function(response) {
         if (response.data.Response === "False") {
-          console.log("There is no movie with this title");
+          textToLog = "There is no movie with this title \n";
+          writeToFile("*** " + action + " " + value + "\n");
+          writeToFile(textToLog);
+          console.log(textToLog);
         } else {
-          console.log("Title of the movie: " + response.data.Title);
-          console.log("Year the movie came out: " + response.data.Year);
-          console.log("IMDB Rating of the movie: " + response.data.imdbRating);
+          textToLog += "Title of the movie: " + response.data.Title + "\n";
+          textToLog += "Year the movie came out: " + response.data.Year + "\n";
+          textToLog +=
+            "IMDB Rating of the movie: " + response.data.imdbRating + "\n";
           if (response.data.Ratings[1] !== undefined) {
-            console.log(
+            textToLog +=
               "Rotten Tomatoes Rating of the movie: " +
-                response.data.Ratings[1].Value
-            );
+              response.data.Ratings[1].Value +
+              "\n";
           }
-          console.log(
-            "Country where the movie was produced: " + response.data.Country
-          );
-          console.log("Language of the movie: " + response.data.Language);
-          console.log("Plot of the movie: " + response.data.Plot);
-          console.log("Actors in the movie: " + response.data.Actors);
+          textToLog +=
+            "Country where the movie was produced: " +
+            response.data.Country +
+            "\n";
+          textToLog +=
+            "Language of the movie: " + response.data.Language + "\n";
+          textToLog += "Plot of the movie: " + response.data.Plot + "\n";
+          textToLog += "Actors in the movie: " + response.data.Actors + "\n\n";
+          writeToFile("*** " + action + " " + value + "\n");
+          writeToFile(textToLog);
+          console.log(textToLog);
         }
       },
       function(error) {
@@ -90,13 +109,16 @@ function songs() {
       .then(function(data) {
         var artistList = data.artists;
         artistList.forEach(function(e) {
-          console.log("Artist: " + e.name);
+          textToLog += "Artist: " + e.name + "\n";
         });
-        console.log("The song's name: " + data.name);
-        console.log(
-          "A preview link of the song from Spotify: " + data.preview_url
-        );
-        console.log("The album that the song is from: " + data.album.name);
+        textToLog += "The song's name: " + data.name + "\n";
+        textToLog +=
+          "A preview link of the song from Spotify: " + data.preview_url + "\n";
+        textToLog +=
+          "The album that the song is from: " + data.album.name + "\n\n";
+        writeToFile("*** " + action + " " + value + "\n");
+        writeToFile(textToLog);
+        console.log(textToLog);
       })
       .catch(function(err) {
         console.error("Error occurred: " + err);
@@ -110,14 +132,18 @@ function songs() {
         var arr = data.tracks.items;
         arr.forEach(function(element) {
           var filtered = element.artists.map(e => e.name);
-          console.log("Artist: " + filtered.join(", "));
-          console.log("The song's name: " + element.name);
-          console.log(
-            "A preview link of the song from Spotify: " + element.preview_url
-          );
-          console.log("The album that the song is from: " + element.album.name);
-          console.log("\n");
+          textToLog += "Artist: " + filtered.join(", ") + "\n";
+          textToLog += "The song's name: " + element.name + "\n";
+          textToLog +=
+            "A preview link of the song from Spotify: " +
+            element.preview_url +
+            "\n";
+          textToLog +=
+            "The album that the song is from: " + element.album.name + "\n\n";
         });
+        writeToFile("*** " + action + " " + value + "\n");
+        writeToFile(textToLog);
+        console.log(textToLog);
       })
       .catch(function(err) {
         console.error("Error occurred: " + err);
@@ -126,6 +152,25 @@ function songs() {
 }
 
 //do what it says
+function read() {
+  fs.readFile("random.txt", "utf8", function(err, data) {
+    if (err) {
+      return console.log(err);
+    }
+    var output = data.split(",");
+    value = output[1];
+    commands(output[0], value);
+  });
+}
+
+//write to file
+function writeToFile(textToLog) {
+  fs.appendFile("log.txt", textToLog, function(err) {
+    if (err) {
+      console.log(err);
+    }
+  });
+}
 
 //run commands
 function commands(action, value) {
@@ -140,6 +185,7 @@ function commands(action, value) {
       movie();
       break;
     case "do-what-it-says":
+      read();
       break;
   }
 }
