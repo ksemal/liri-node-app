@@ -4,6 +4,8 @@
 
 LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data about movies, songs and events.
 
+Video of how this app works can be found here: https://drive.google.com/open?id=109vOLHt5smc9XP1FMltFrTqSHBSIcK3S
+
 ## Description
 
 - LIRI searches Spotify for songs, Bands in Town for concerts, and OMDB for movies.
